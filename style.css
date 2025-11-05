@@ -54,6 +54,11 @@ html, body {
 .bullets:not(:last-child) {
     margin-bottom: .4rem;
 }
+
+.bullet-text{
+    margin-top: 8px;
+    margin-left: 3px;
+}
 /* removed the checkboxes*/
 input[type="checkbox"] {
     appearance: none;
@@ -185,5 +190,6 @@ input[type="checkbox"]:checked::before {
 .bold-email {
     font-weight: bold;
 }
+
 
 /* Media query*/
